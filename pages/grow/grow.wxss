@@ -1,0 +1,6 @@
+/* pages/grow/grow.wxss */
+.grow{
+width: auto;
+height: 800px;
+
+}

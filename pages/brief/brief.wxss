@@ -1,0 +1,6 @@
+/* pages/jianjie/jianjie.wxss */
+.textarea1{
+  text-indent: 2em;
+  
+
+}

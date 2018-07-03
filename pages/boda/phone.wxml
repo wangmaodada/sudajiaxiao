@@ -1,0 +1,2 @@
+<!--pages/boda/phone.wxml-->
+<button bindtap="calling">拨打电话</button>

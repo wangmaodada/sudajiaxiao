@@ -1,0 +1,11 @@
+<!--pages/huanjing/huanjing.wxml-->
+<view class="container">
+<text>校园环境</text>
+<block wx:for="{{movies}}" wx:for-index="index">
+<image src="{{item.url}}" class="imagehuanjing"></image>
+</block>
+
+
+
+
+</view>

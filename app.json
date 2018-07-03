@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/service/service",
+    "pages/navigation/navigation",
+    "pages/environmental/environmental",
+    "pages/brief/brief",
+    "pages/grow/grow",
+    "pages/characteristics/characteristics",
+    "pages/shopping/shopping",
+    "pages/boda/phone"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "苏达驾校",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/image/index_green.png",
+        "iconPath": "pages/image/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/image/qian_green.png",
+        "iconPath": "pages/image/qian.png",
+        "pagePath": "pages/service/service",
+        "text": "了解价格"
+      },
+      {
+        "selectedIconPath": "pages/image/ulianxi.png",
+        "iconPath": "pages/image/lianxi.png",
+        "pagePath": "pages/boda/phone",
+        "text": "联系报名"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}

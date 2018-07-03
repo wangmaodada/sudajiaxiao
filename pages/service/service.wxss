@@ -1,0 +1,6 @@
+/* pages/service/service.wxss */
+.imgs{
+height: 1150rpx;
+width: 750rpx;
+
+}

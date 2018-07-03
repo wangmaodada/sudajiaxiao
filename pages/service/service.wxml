@@ -1,0 +1,8 @@
+<!--pages/service/service.wxml-->
+<view class='container'>
+
+<image src='http://sudajiaxiao.tech/images/mray.png' class="imgs"></image>
+
+
+
+</view>

@@ -1,0 +1,5 @@
+/* pages/huanjing/huanjing.wxss */
+.imagehuanjing{
+  padding: 10px;
+
+}

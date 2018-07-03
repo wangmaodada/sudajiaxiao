@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<view class="container ">
+<swiper class="swiper" indicator-dots="true" bindchange="intervalChange" autoplay="true" interval="5000" duration="1000">  
+   <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+     <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+   </block>  
+  </swiper>
+<view class="buju">
+    <view class="neibu">
+          <image src="http://sudajiaxiao.tech/images/jiaxiao.png" class="image" bindtap="intobrief"></image>
+        <text>驾校简介</text>
+    </view>
+    <view class="neibu">
+          <image src="http://sudajiaxiao.tech/images/xueche.png" class="image" bindtap="intonavigation"></image>
+        <text>驾校导航</text>
+    </view>
+  <view class="neibu">
+          <image src='http://sudajiaxiao.tech/images/miji.png' class="image" bindtap="intoenvironmental"></image>
+        <text>驾校环境</text>       
+      </view>
+</view>
+
+<view class="buju1">
+    <view class="neibu">
+          <image src="http://sudajiaxiao.tech/images/xiangqing.png" class="image" bindtap="intocharacteristics"></image>
+        <text>服务特色</text>
+    </view>
+    <view class="neibu">
+          <image src="http://sudajiaxiao.tech/images/zixun.png" class="image" bindtap="intogrow"></image>
+        <text>驾校成长</text>
+    </view>
+ <view class="neibu">
+          <image src='http://sudajiaxiao.tech/images/shangcheng.png' class="image" bindtap=""></image>
+        <text>后续开发</text>
+    </view>
+</view>
+<view class="line"/>
+
+<view class="buju1">
+    <view class="neibu">
+          <image src="/pages/image/1.png" class="imagejiaol" bindtap=""></image>
+        <text>学车保障</text>
+    </view>
+    <view class="neibu">
+          <image src="/pages/image/2.png" class="imagejiaol" bindtap=""></image>
+        <text>时间规划</text>
+    </view>
+ <view class="neibu">
+          <image src="/pages/image/3.png" class="imagejiaol" bindtap=""></image>
+        <text>认证教练</text>
+    </view>
+</view>
+
+
+
+<view class="line"/>
+<view class="daohang">
+<text class='tuijian' decode='&nbsp'>&nbsp; 苏州地区报名点</text>
+</view>
+<view class="line-smart"/>
+<text>独墅湖报名点</text>
+<text class="dushuhu">
+独墅湖训练场
+  苏州工业园区独墅湖文星广场一楼（肯德基旁边）
+电脑：0512-62870860
+</text>
+<view class="line-smart"/>
+
+</view>
